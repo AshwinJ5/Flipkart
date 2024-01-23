@@ -26,18 +26,19 @@
     #fghgf a{ margin-left:20px;
     }
     footer{font-size: small;}
-    #jnmkkm ul li a, #jnmkkm{color: white; 
+    #jnmkkm ul li a, #jnmkkm{color: rgb(255, 255, 255); 
     text-decoration: none;}
     #jnmkkm ul li a:hover{
-    font-weight: bolder;
     text-decoration: underline;}
     #jnmkkm h6{ margin-left: 30px;}
     #hjkyhg a{ margin: 30px;}
     
     
     
+    
       </style>
-        <nav class="navbar bg-body-light m-2">
+        <nav style="position: sticky;
+          top: 0px;background-color: rgb(255, 255, 255);z-index: 2;" class="navbar bg-body-light m-2">
             <div style="margin-inline: 100px;" class="container-fluid mx-5">
               <a class="navbar-brand" href="#">
                 <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="Bootstrap">
@@ -103,25 +104,92 @@
                 <div>Grocery</div></a>
               <a href=""><img src="https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="">
                 <div>Mobiles</div></a>
-              <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100" alt="">
-                <div>Fashion</div></a>
-              <a href=""><img src="https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="">
-                <div>Electronics</div></a>
-              <a href=""><img src="https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt="">
-                <div>Home & Furniture</div></a>
-              <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100" alt="">
+                <div class="dropdown">
+                    <span class=" btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100" alt="">
+                        <div>Fashion <i id="dfsda" class="fa-solid fa-chevron-up"></i></div></a>
+                      </span>
+                    <ul class="dropdown-menu " style=" width: 250px;">
+                      <li><a class="dropdown-item text-start" href="#">Mens Topwear</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Mens Bottomwear</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Women Ethnics</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Men Footwear</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Women Footwear</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Kids</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Essentials</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Winter & Accessories</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Watches</a></li>
+                    </ul>
+                  </div>
+                
+                  <div class="dropdown">
+                    <span class=" btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a href=""><img src="https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="">
+                        <div>Electronics <i id="dfsda" class="fa-solid fa-chevron-up"></i></div></a>
+                      </span>
+                    <ul class="dropdown-menu " style=" width: 250px;">
+                      <li><a class="dropdown-item text-start" href="#">Audio</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Laptop and Desktop</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Computer Peripherals</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Cameras & Accessories</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Health & Personal Care</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Tablets</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Smart Wearables</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Winter & Accessories</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Smart Home automation</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown">
+                    <span class=" btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a href=""><img src="https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt="">
+                        <div>Home & Furniture <i id="dfsda" class="fa-solid fa-chevron-up"></i></div></a>
+                      </span>
+                    <ul class="dropdown-menu " style=" width: 250px;">
+                      <li><a class="dropdown-item text-start" href="#">Furniture Studio</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Living Room Furniture</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Bedroom Furniture</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Pet & Gardening</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Space Saving Furniture</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Home Decor</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Tools & Utility</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Home Furnishings</a></li>
+                      <li><a class="dropdown-item text-start" href="#">Kitchen & Dining</a></li>
+                    </ul>
+                  </div>
+                  <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100" alt="">
                 <div>Appliances</div></a>
               <a href=""><img src="https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="">
                 <div>Travel</div></a>
-              <a href=""><img src="https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="">
-                <div>Beauty,Toys & More</div></a>
-              <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100" alt="">
-                <div>Two Wheelers</div></a>
-    
-    
-    
-    
-    
+
+                <div class="dropdown">
+                  <span class=" btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href=""><img src="https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="">
+                      <div>Beauty,Toys & More <i id="dfsda" class="fa-solid fa-chevron-up"></i></div></a>
+                    </span>
+                  <ul class="dropdown-menu " style=" width: 250px;">
+                    <li><a class="dropdown-item text-start" href="#">Toys & School Supplies</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Sports & Fitness</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Books</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Music</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Stationery & Office Supplies</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Auto Accessories</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Safety & Hygiene Essentials</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Baby Care</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Nutrition & Health Care</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <span class=" btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100" alt="">
+                      <div>Two Wheelers <i id="dfsda" class="fa-solid fa-chevron-up"></i></div></a>
+                    </span>
+                  <ul class="dropdown-menu " style=" width: 250px;">
+                    <li><a class="dropdown-item text-start" href="#">Petrol Vehicles</a></li>
+                    <li><a class="dropdown-item text-start" href="#">Electric Vehicles</a></li>
+                  </ul>
+                </div>
+
     
             </div>
           </nav>
@@ -146,16 +214,17 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item ">
-                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/7fd0e4ab26429926.jpg?q=20" class="d-block w-100 h-50" alt="...">
+                <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/7fd0e4ab26429926.jpg?q=20" class="d-block w-100 h-50" alt="..."></a>
+                
               </div>
-              <div class="carousel-item active">
-                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/e7b40c1b2a494248.jpg?q=20" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/aa1b2bdcf519b468.jpg?q=20" class="d-block w-100" alt="...">
+              <div class="carousel-item active"><a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/e7b40c1b2a494248.jpg?q=20" class="d-block w-100" alt="..."></a>
+                
               </div>
               <div class="carousel-item">
-                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/00c54453726b0ea8.jpg?q=20" class="d-block w-100" alt="...">
+                <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/aa1b2bdcf519b468.jpg?q=20" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/00c54453726b0ea8.jpg?q=20" class="d-block w-100" alt="..."></a>
               </div>
             </div>
             <button id="kloij" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -179,7 +248,7 @@
     .card img{ height: 120px; margin: auto; padding: 5px;}
     .card{text-align: center;}
     #dfgsdf a i{margin-left: 95%;margin-bottom: 30px;}
-    .card img:hover{}
+    .col a img:hover{transform: scale(1.07);}
     .col a{text-decoration: none; }
 </style>
 
@@ -211,7 +280,7 @@
         </div>
         <div class="col">
           <a href=""><div class="card h-100">
-              <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/refrigerator-new/8/x/t/-original-imagwnjz3dnknunt.jpeg?q=70&crop=false" class="card-img-top w-25 " alt="...">
+              <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/refrigerator-new/8/x/t/-original-imagwnjz3dnknunt.jpeg?q=70&crop=false" class="card-img-top w-50 " alt="...">
               <div class="card-body">
                 <p class="card-text">Up to 65% Off</p>
                 <h6 class="card-title">Five Star Refrigerator</h6>
@@ -421,13 +490,246 @@
 </div>
 
 </div>
+<br>
 
- 
 
+<div id="yutyrt" class="container bg-light  p-3"><h3 id="dfgsdf"> Beauty, Food, Toys & more <a href=""><i class="fa-solid fa-circle-chevron-right" style="color: #FFD43B;"></i></a></i></h3>
+    
+  <div class="row row-cols-1 row-cols-md-6 g-3"> 
+      <div class="col">
+        <a href=""><div class="card h-100">
+          <img src="https://rukminim2.flixcart.com/image/832/832/kmkxbww0/remote-control-toy/n/u/4/3d-fast-modern-car-sstoys-original-imagfgdgamejgbwp.jpeg?q=70&crop=false" class="card-img-top w-75" alt="...">
+          <div class="card-body">
+            <p class="card-text">Upto 75% Off</p>
+            <h6 class="card-title">Remote Control Toys</h6>
+            
+          </div>
+        </div></a>
+      </div>
+      <div class="col">
+        <a href=""><div class="card h-100">
+          <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/action-figure/c/3/z/3-dbz-mini-action-figures-6-5-7-cm-assorted-any-1-pc-premium-original-imagt5568ehgsyng.jpeg?q=70&crop=false" class="card-img-top w-75" alt="...">
+          <div class="card-body">
+            <p class="card-text">Upto 65% Off</p>
+            <h6 class="card-title ">Rideons & Tricycles</h6>
+            </div>
+            </div>
+        
+        </a>
+          
+      </div>
+      <div class="col">
+        <a href=""><div class="card h-100">
+            <img src="https://th.bing.com/th/id/OIP.IPYK6Sz_vZR0A4VT0CEWfAHaHa?rs=1&pid=ImgDetMain" class="card-img-top w-75 " alt="...">
+            <div class="card-body">
+              <p class="card-text">Up to 75% Off</p>
+              <h6 class="card-title">Soft Toys</h6>
+            
+            </div>
+          </div>
+        </a>
+        
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1588449668365-d15e397f6787?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWNvdXN0aWMlMjBndWl0YXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" class="card-img-top w-50" alt="...">
+          <div class="card-body">
+            <p class="card-text">Up to 70% Off</p>
+            <h6 class="card-title">String Instruments</h6>
+            
+          </div>
+        </div>
+        </a>
+        
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card h-100">
+            <img src="https://m.media-amazon.com/images/I/718+shhe8VL._SL1500_.jpg" class="card-img-top  my-auto" alt="...">
+            <div class="card-body">
+              <p class="card-text">Shop Now!</p>
+              <h6 class="card-title">Geared Cycle</h6>
+            </div>
+          </div>
+        </a>
+          
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card h-100">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71YGjD5iHZL.jpg" class="card-img-top w-75" alt="...">
+            <div class="card-body">
+              <p class="card-text">Up to 70% Off</p>
+              <h6 class="card-title">Musical Keyboards</h6>
+              
+            </div>
+          </div>
+          </a>
+        </div>
+    </div> 
+</div>
+<br>
+
+<div id="yutyrt" class="container bg-light  p-3"><h3 id="dfgsdf"> Top Deals on Electronics <a href=""><i class="fa-solid fa-circle-chevron-right" style="color: #FFD43B;"></i></a></i></h3>
+    
+  <div class="row row-cols-1 row-cols-md-6 g-3"> 
+      <div class="col">
+        <a href=""><div class="card h-100">
+          <img src="https://th.bing.com/th/id/OIP.wqNcJRp9rIs6-eHreAY8agHaGH?rs=1&pid=ImgDetMain" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text">Upto 70% Off</p>
+            <h6 class="card-title">Monitors</h6>
+            
+          </div>
+        </div></a>
+      </div>
+      <div class="col">
+        <a href=""><div class="card h-100">
+          <img src="https://www.bhphotovideo.com/images/images2500x2500/benq_ms504_svga_3000_ansi_1009391.jpg" class="card-img-top w-75" alt="...">
+          <div class="card-body">
+            <p class="card-text">Min 40% Off</p>
+            <h6 class="card-title ">Projectors</h6>
+            </div>
+            </div>
+        
+        </a>
+          
+      </div>
+      <div class="col">
+        <a href=""><div class="card h-100">
+            <img src="https://th.bing.com/th/id/OIP.geGENswA57q8bCv_2fawywHaHa?rs=1&pid=ImgDetMain" class="card-img-top w-75 " alt="...">
+            <div class="card-body">
+              <p class="card-text">Up to 65% Off</p>
+              <h6 class="card-title">Shavers</h6>
+            
+            </div>
+          </div>
+        </a>
+        
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card h-100">
+          <img src="https://www.bhphotovideo.com/images/images2500x2500/Canon_5781B002_Pixma_MX372_All_In_One_Office_843991.jpg" class="card-img-top w-75" alt="...">
+          <div class="card-body">
+            <p class="card-text">From 4499</p>
+            <h6 class="card-title">Printers</h6>
+            
+          </div>
+        </div>
+        </a>
+        
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card h-100">
+            <img src="https://cdn2.bigcommerce.com/server3300/f9fok/products/16807/images/32079/1550675172000_1461734__01638.1556985543.1280.1280.jpg?c=2" class="card-img-top  w-75" alt="...">
+            <div class="card-body">
+              <p class="card-text">From 28999</p>
+              <h6 class="card-title">DSLR & Mirrorless Cameras</h6>
+            </div>
+          </div>
+        </a>
+          
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card h-100">
+            <img src="https://th.bing.com/th/id/OIP.5e7kHgvVapur4BOMjOdFqAD6D6?rs=1&pid=ImgDetMain" class="card-img-top w-75" alt="...">
+            <div class="card-body">
+              <p class="card-text">From 149</p>
+              <h6 class="card-title">Pendrives</h6>
+              
+            </div>
+          </div>
+          </a>
+          
+        </div>
+    </div> 
+</div>
+<br>
+<div id="yutyrt" class="container bg-light  p-3"><h3 id="dfgsdf"> Sports, Healthcare, & more <a href=""><i class="fa-solid fa-circle-chevron-right" style="color: #FFD43B;"></i></a></i></h3>
+    
+  <div class="row row-cols-1 row-cols-md-6 g-3"> 
+      <div class="col">
+        <a href=""><div class="card h-100">
+          <img src="https://th.bing.com/th/id/OIP.vYOg5X0Pa1eCSKSDNnNIDQHaKk?rs=1&pid=ImgDetMain" class="card-img-top w-50" alt="...">
+          <div class="card-body">
+            <p class="card-text">Upto 70% Off</p>
+            <h6 class="card-title">Health Supplements</h6>
+            
+          </div>
+        </div></a>
+      </div>
+      <div class="col">
+        <a href=""><div class="card h-100">
+          <img src="https://rukminim1.flixcart.com/image/832/832/knoxnrk0/ball/8/s/x/300-350-4-21-classic-1-vb-477-volleyball-nivia-original-imag2bggfzyvcyz5.jpeg?q=70" class="card-img-top w-75" alt="...">
+          <div class="card-body">
+            <p class="card-text">Upto 80% Off</p>
+            <h6 class="card-title ">Ball</h6>
+            </div>
+            </div>
+        
+        </a>
+          
+      </div>
+      <div class="col">
+        <a href=""><div class="card h-100">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81Ddfqy0eBL._SL1500_.jpg" class="card-img-top w-75 " alt="...">
+            <div class="card-body">
+              <p class="card-text">Up to 75% Off</p>
+              <h6 class="card-title">Gym Essentials</h6>
+            
+            </div>
+          </div>
+        </a>
+        
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card h-100">
+          <img src="https://img.medicalexpo.com/images_me/photo-g/70274-9591538.jpg" class="card-img-top w-75" alt="...">
+          <div class="card-body">
+            <p class="card-text">Upto 65% Off</p>
+            <h6 class="card-title">Threadmills</h6>
+            
+          </div>
+        </div>
+        </a>
+        
+      </div>
+      <div class="col">
+        <a href="">
+          <div class="card h-100">
+            <img src="https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/1/0/1005243-1.jpg" class="card-img-top  w-75" alt="...">
+            <div class="card-body">
+              <p class="card-text">Upto 70% Off</p>
+              <h6 class="card-title">Dry Fruits</h6>
+            </div>
+          </div>
+        </a>
+          
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card h-100">
+            <img src="https://th.bing.com/th/id/OIP.yFZGbkeNZk0IFKzX4SZ78AHaHa?rs=1&pid=ImgDetMain" class="card-img-top w-75" alt="...">
+            <div class="card-body">
+              <p class="card-text">From 149</p>
+              <h6 class="card-title">Yoga Mat</h6>
+              
+            </div>
+          </div>
+          </a>
+          
+        </div>
+    </div> 
+</div>
 
 
 <div style="font-size: x-small;" class="container-fluid bg-secondary text-dark">
-  <p >
+  <p > <br>
     <h6>Top Stories: Brand Directory</h6>
     <br>
     MOST SEARCHED FOR ON FLIPKART: iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max | Vivo x 100 | Spoyl Store | SAMSUNG Flip5 | SAMSUNG Fold5 | Flipkart Axis Bank Super Elite Credit card | 5G Mobile Phones | Primebook Laptops | Moto Edge 40 | Grievance Redressal | OPPO Reno7 Pro 5G | iPhone 13 | Help Centre | Track Orders | Manage Orders | Return Orders | Gift Cards Store | Flipkart Axis Bank Credit Card | Pay Later </p>
@@ -487,7 +789,7 @@
       ..
     </span>
 </div>
-<footer  class="bg-body text-center text-sm-start text-light  ">
+<footer  class=" text-center text-sm-start text-light  ">
   <div  class="row bg-dark">
     <div id="jnmkkm" class="col-2 my-5">
       <h6>ABOUT</h6>
@@ -552,7 +854,7 @@
       Telephone: 044-45614700
     </div>
     <hr>
-    <br><br><br>
+    <br>
     <div id="hjkyhg" class="text-center m-5">
     <a id="jnmkkm" href=""><i class="fa-solid fa-store" style="color: #FFD43B;"></i> Become a Seller</a>
     <a id="jnmkkm" href=""><i class="fa-solid fa-rectangle-ad" style="color: #FFD43B;"></i> Advertise</a>
@@ -574,3 +876,11 @@
      
 </body>
 </html>
+
+
+
+
+
+
+
+
